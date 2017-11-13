@@ -70,6 +70,10 @@
           About
         </a>
       
+        <a href="/categories" class="nav-categories nav">
+          Categories
+        </a>
+      
         <a href="/archives" class="nav-archives nav">
           Archives
         </a>
@@ -104,6 +108,10 @@
 	</section>
 </article>
 
+
+<section id="comments">
+	<div id="disqus_thread"></div>
+</section>
 
 
 
@@ -165,6 +173,20 @@
   </div>
 
   
+<script>
+  var disqus_shortname = 'fish';
+  
+  var disqus_url = 'http://yoursite.com/2017/11/13/hello-world/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 
 
